@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px solid black;
+    width: 55%;
+    height: 50vh;
+    background-color: rgb(20, 18, 18);
+    border-radius: 15px;
+    opacity: 0.95;
+    margin: 50px 0 0 0;
+}
+.container p {
+    margin: 25px 25px 0 25px;
+    color: #fff;
+    text-align: justify;
+}
+.container img {
+    width: 7%;
+    padding: 5px;
+}
