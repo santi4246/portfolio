@@ -30,6 +30,7 @@ export default function Navbar () {
            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'><Link to='/' className='nav-links' onClick={mobileMenu}>Home</Link></li>
             <li className="nav-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}><Link to='/about' className="nav-links" onClick={mobileMenu}>About me</Link>{dropdown && <Dropdown/>}</li>            
+            {window.innerWidth < 960 ? <li className="nav-item"><Link to='/cv' className="nav-links" onClick={mobileMenu}>CV</Link></li> : null}
             <li className="nav-item"><Link to='/contact' className="nav-links" onClick={mobileMenu}>Contact</Link></li>
            </ul>
         </nav>
