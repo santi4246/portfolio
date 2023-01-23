@@ -7,10 +7,12 @@
     margin: 25px 0;
     width: 65%;    
 }
-.container img {
-    width: 12%;
-    height: 12%;
+.container img {    
+    position: relative;
+    width: 125px;
+    height: 150px;
     border-radius: 50%;
+    border: 5px solid black;    
 }
 .content {
     display: flex;

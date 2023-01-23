@@ -1,6 +1,7 @@
 import React from "react";
 import '../../Styles/CV.css';
 import profile from '../../Images/profile.png';
+import Button from "./Button";
 
 export default function CV () {
     return (
@@ -52,46 +53,51 @@ export default function CV () {
                             </li>
                             <li>
                                 <h5>2021 - 2021</h5>
-                                <h4>Máster en SQL Server</h4>
-                                <h4>Universidad Udemi</h4>
+                                <h4>Máster in SQL Server</h4>
+                                <h4>University Udemi</h4>
                             </li>
                             <li>
                                 <h5>2021 - 2021</h5>
-                                <h4>Machine Learning con Python para Trading</h4>
-                                <h4>Universidad Udemi</h4>
+                                <h4>Machine Learning with Python for Trading</h4>
+                                <h4>University Udemi</h4>
                             </li>
                             <li>
                                 <h5>2021 - 2021</h5>
-                                <h4>Máster en Hacking con Python</h4>
-                                <h4>Universidad Udemi</h4>
-                            </li>
+                                <h4>Máster in Hacking with Python</h4>
+                                <h4>University Udemi</h4>
+                            </li>                            
                             <li>
                                 <h5>2019 - 2020</h5>
-                                <h4>Certificación Intermedio - Avanzado en C++</h4>
-                                <h4>Universidad Udemi</h4>
+                                <h4>Intermediate - Advanced Certification in C++</h4>
+                                <h4>University Udemi</h4>
+                            </li>
+                            <li>
+                                <h5>2019 - 2019</h5>
+                                <h4>German Level I</h4>
+                                <h4>Faculty of Economic Sciences UNER</h4>
                             </li>
                             <li>
                                 <h5>2017 - 2017</h5>
-                                <h4>Auxiliar en Servicio Técnico Electrónico - Electrónica Básica</h4>
-                                <h4>Centro de Formación Profesional N° 2</h4>
+                                <h4>Assistant in Electronic Technical Service - Basic Electronics</h4>
+                                <h4>Vocational Training Center No. 2</h4>
                             </li>
                             <li>
                                 <h5>2009 - 2010</h5>
-                                <h4>Certificación A2 Inglés</h4>
-                                <h4>Asociación Argentina de Cultura Inglesa</h4>
+                                <h4>A2 English Certification</h4>
+                                <h4>Argentine Association of English Culture</h4>
                             </li>
                             <li>
                                 <h5>2008 - 2009</h5>
-                                <h4>Analista Programador - Programador en Sistema de Interfaz Gráfica</h4>
-                                <h4>Instituto Argentino de Computación</h4>
+                                <h4>Programmer Analyst - Graphical Interface System Programmer</h4>
+                                <h4>Argentine Institute of Computing</h4>
                             </li>
                             <li>                        
-                                <h4>Primaria:</h4>
-                                <h4>Escuela N° 2 "25 de Mayo"</h4>                       
+                                <h4>Primary School:</h4>
+                                <h4>School N° 2 "25 de Mayo"</h4>
                             </li>
                             <li>                        
-                                <h4>Secundaria:</h4>
-                                <h4>Escuela N° 155 "Supremo Entrerriano"</h4>
+                                <h4>High school:</h4>
+                                <h4>School N° 155 "Supremo Entrerriano"</h4>
                             </li>
                         </ul>
                     </div>                    
@@ -101,7 +107,7 @@ export default function CV () {
                         <h3 className = "title2">Profile</h3>
                         <p>Full Stack Developer with training as a Web Designer. Experience working in NodeJS, React, Redux, Express, Postgres among other technologies in the sector.
                             <br/><br/>I participated in the creation of a web application together with my colleagues that consisted in the marketing of uniquely designed sneakers, with their corresponding user registration and payment gateway. Personally I was involved in tasks related to the Backend.
-                            <br/><br/>Actualmente acabo de recibirme del Bootcamp SoyHenry y comenzando en la búsqueda de un puesto laboral en el sector IT.
+                            <br/><br/>Currently I have just graduated from the SoyHenry Bootcamp and starting to search for a job in the IT sector.
                         </p>
                     </div>
                     <div className = "about">
@@ -109,20 +115,20 @@ export default function CV () {
                         <div className = "box">
                             <div className = "year_company">
                                 <h5>2012 - 2019</h5>
-                                <h5>Ministerio de Salud de Entre Ríos</h5>
+                                <h5>Ministry of Health of Entre Ríos</h5>
                             </div>
                             <div className = "text">
-                                <h4>Administrativo Departamento Personal</h4>
+                                <h4>Administrative Department Personnel</h4>
                                 <p>I worked with HR systems. collaborating with data loading, training for Hospital and Health Center personnel and carrying out internal audits. Together with the IT Department, we carry out the installation, configuration and data control of the Biometric Clock systems.</p>
                             </div>
                         </div>
                         <div className = "box">
                             <div className = "year_company">
                                 <h5>2010 - 2011</h5>
-                                <h5>Ministerio de Salud de Entre Ríos</h5>
+                                <h5>Ministry of Health of Entre Ríos</h5>
                             </div>
                             <div className = "text">
-                                <h4>Administrativo Programa Federal de Salud</h4>
+                                <h4>Administrativo Federal Health Program</h4>
                                 <p>I worked with the affiliate registration system in the upload and verification of data compared with the Nation systems.</p>
                             </div>
                         </div>
@@ -208,6 +214,7 @@ export default function CV () {
                             <li><i className = "fa fa-book" aria-hidden = "true"/> Lecture</li>
                             <li><i className = "fa fa-cutlery"/> Cooking</li>
                         </ul>
+                        <Button />
                     </div>
                 </div>
             </div>
