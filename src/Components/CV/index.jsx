@@ -128,7 +128,7 @@ export default function CV () {
                                 <h5>Ministry of Health of Entre Ríos</h5>
                             </div>
                             <div className = "text">
-                                <h4>Administrativo Federal Health Program</h4>
+                                <h4>Administrative Federal Health Program</h4>
                                 <p>I worked with the affiliate registration system in the upload and verification of data compared with the Nation systems.</p>
                             </div>
                         </div>
