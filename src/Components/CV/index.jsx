@@ -54,22 +54,22 @@ export default function CV () {
                             <li>
                                 <h5>2021 - 2021</h5>
                                 <h4>Máster in SQL Server</h4>
-                                <h4>University Udemi</h4>
+                                <h4>University Udemy</h4>
                             </li>
                             <li>
                                 <h5>2021 - 2021</h5>
                                 <h4>Machine Learning with Python for Trading</h4>
-                                <h4>University Udemi</h4>
+                                <h4>University Udemy</h4>
                             </li>
                             <li>
                                 <h5>2021 - 2021</h5>
                                 <h4>Máster in Hacking with Python</h4>
-                                <h4>University Udemi</h4>
+                                <h4>University Udemy</h4>
                             </li>                            
                             <li>
                                 <h5>2019 - 2020</h5>
                                 <h4>Intermediate - Advanced Certification in C++</h4>
-                                <h4>University Udemi</h4>
+                                <h4>University Udemy</h4>
                             </li>
                             <li>
                                 <h5>2019 - 2019</h5>
