@@ -12,6 +12,7 @@ export default function Container ({ projects }) {
                     name = {e.name}
                     url = {e.url}
                     img = {e.img}
+                    description = {e.description}
                     />
                 })
             }

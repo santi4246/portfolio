@@ -2,26 +2,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;       
-    padding: 20px 0 20px 15px;
-    margin: 25px 15px;
+    justify-content: flex-start;
+    padding: 20px 0 20px 20px;
+    margin: 25px 25px;
     border-radius: 15px;
     width: fit-content;    
 
 }
-.card:hover {
-    background-color: rgb(50, 50, 50);
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 0.5s ease;
-}
-.img {
+.content {
     display: flex;
-    width: 95%;
-    height: 95%;
-    border-radius: 15px;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
-.title {
+.content img {
+    display: flex;    
+    width: 45%;
+    height: 50vh;
+    border-radius: 15px;
+}
+.Card h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,6 +33,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+}
+.links a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     font-size: 18px;
     color: #fff;
+}
+.links a:hover {
+    color: #1e9bff;
 }

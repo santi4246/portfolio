@@ -13,11 +13,11 @@
   flex-wrap: nowrap;
   height: max-content;
   min-height: 92vh;
-  background-image: url('./Images/img-3.jpg');
+  background-image: url('./Images/img-6.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: black;
+  color: #fff;
   font-size: 20px;
   font-family: 'Noto Sans', sans-serif;  
 }
