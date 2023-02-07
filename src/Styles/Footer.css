@@ -34,15 +34,19 @@
     .about {
         display: grid;
         grid-column: 3/4;
-        grid-row: 1/2;        
+        grid-row: 1/2;
     }
     .about-me h2 {
-        margin: 10px 20px;
+        margin: 10px 5px;
     }    
-    .about-me .nav-links {
+    .about-me .nav-links-footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        text-decoration: none;
         font-size: medium;
-        margin: -35px 0;
-        color: #fff;
+        margin: 0px 10px;
+        color: #fff;        
     }
     .group-2 {
         display: grid;
@@ -100,13 +104,13 @@
     }
     .about-me h2 {
         color: #fff;
-        margin: 10px 70px;
+        margin: 10px 20px;
     }    
-    .about-me .nav-links {
-        font-size: medium;
-        margin: -15px 0;
-        color: #fff;
-    }
+    .about-me .nav-links-footer {
+        margin: 10px 70px;
+        text-decoration: none;
+        color: #fff;        
+    }    
     .group-2 {
         display: grid;
         grid-column: 2/6;

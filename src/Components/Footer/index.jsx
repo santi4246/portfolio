@@ -16,8 +16,8 @@ export default function Footer () {
             <div className = "about">
                 <div className = "about-me">
                     <h2>About</h2>
-                    <NavLink to = '/about' className = 'nav-links'>About me</NavLink>
-                    <NavLink to = '/cv' className = 'nav-links'>CV</NavLink>
+                    <NavLink to = '/about' className = 'nav-links-footer'>About me</NavLink>
+                    <NavLink to = '/cv' className = 'nav-links-footer'>CV</NavLink>
                 </div>
             </div>
             <div className="group-2">
