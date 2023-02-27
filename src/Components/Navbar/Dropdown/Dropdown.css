@@ -3,7 +3,7 @@
     position: absolute;
     top: 77px;
     list-style: none;
-    text-align: start;
+    text-align: start;    
 }
 .dropdown-menu li {
     background: var(--primary-color);
